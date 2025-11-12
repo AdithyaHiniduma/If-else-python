@@ -1,0 +1,12 @@
+name=input('Enter youre name')
+marks=int(input('enter your marks'))
+print(f'My name is {name}.')
+if marks>80:
+    print('You got a A')
+elif marks>=60:
+    print('You got a B')
+elif marks>=40:
+    print('You got a C')
+else:
+    print('You are Fail')
+    
